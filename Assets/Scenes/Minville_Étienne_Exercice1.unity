@@ -482,6 +482,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 384307635}
+  - component: {fileID: 384307639}
+  - component: {fileID: 384307638}
   - component: {fileID: 384307634}
   - component: {fileID: 384307636}
   m_Layer: 0
@@ -577,6 +579,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca9e5bd9a27cda40a8be421e4df0fac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DetectionProximiteJoueur
+--- !u!114 &384307638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384307633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424208a87acc99147a026995c6961048, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DeplacementHexagone
+  vitesse: 0.04
+  limiteHaut: 10
+  limiteBas: -10
+  vitesseRotation: 25
+--- !u!114 &384307639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384307633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0c816305b2edc4c87077cf2ab1ea94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrandeurHexagone
+  vitesse: 0.001
+  reduction: 0.001
+  peutBouger: 1
 --- !u!1 &454100718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1044,6 +1077,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1175564703}
+  - component: {fileID: 1175564707}
+  - component: {fileID: 1175564706}
   - component: {fileID: 1175564702}
   - component: {fileID: 1175564704}
   m_Layer: 0
@@ -1139,6 +1174,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca9e5bd9a27cda40a8be421e4df0fac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DetectionProximiteJoueur
+--- !u!114 &1175564706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175564701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424208a87acc99147a026995c6961048, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DeplacementHexagone
+  vitesse: 0.04
+  limiteHaut: 10
+  limiteBas: -10
+  vitesseRotation: 25
+--- !u!114 &1175564707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175564701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0c816305b2edc4c87077cf2ab1ea94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrandeurHexagone
+  vitesse: 0.001
+  reduction: 0.001
+  peutBouger: 1
 --- !u!1 &1208610891
 GameObject:
   m_ObjectHideFlags: 0
