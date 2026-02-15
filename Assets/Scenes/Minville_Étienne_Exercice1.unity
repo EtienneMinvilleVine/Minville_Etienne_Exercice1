@@ -128,7 +128,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 28037704}
+  - component: {fileID: 28037706}
   - component: {fileID: 28037703}
+  - component: {fileID: 28037705}
   m_Layer: 0
   m_Name: "Carr\xE9 obstacle (3)"
   m_TagString: Untagged
@@ -210,6 +212,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &28037705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28037702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca9e5bd9a27cda40a8be421e4df0fac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectionProximiteJoueur
+--- !u!114 &28037706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28037702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b54743f53e0ce459ba7f9ef4c4e768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotationCarre
+  vitesseRotation: 0.01
 --- !u!1 &113194507
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,7 +246,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 113194509}
+  - component: {fileID: 113194511}
   - component: {fileID: 113194508}
+  - component: {fileID: 113194510}
   m_Layer: 0
   m_Name: "Carr\xE9 obstacle (1)"
   m_TagString: Untagged
@@ -295,12 +324,37 @@ Transform:
   m_GameObject: {fileID: 113194507}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5, y: 2.6, z: 0}
+  m_LocalPosition: {x: -3.5, y: 1.44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &113194510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113194507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca9e5bd9a27cda40a8be421e4df0fac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectionProximiteJoueur
+--- !u!114 &113194511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113194507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b54743f53e0ce459ba7f9ef4c4e768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotationCarre
+  vitesseRotation: 0.01
 --- !u!1 &152208798
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,7 +364,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 152208800}
+  - component: {fileID: 152208802}
   - component: {fileID: 152208799}
+  - component: {fileID: 152208801}
   m_Layer: 0
   m_Name: "Carr\xE9 obstacle (9)"
   m_TagString: Untagged
@@ -386,12 +442,37 @@ Transform:
   m_GameObject: {fileID: 152208798}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.66, y: 2.68, z: 0}
+  m_LocalPosition: {x: 1.66, y: 1.96, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &152208801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152208798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca9e5bd9a27cda40a8be421e4df0fac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectionProximiteJoueur
+--- !u!114 &152208802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152208798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b54743f53e0ce459ba7f9ef4c4e768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotationCarre
+  vitesseRotation: 0.01
 --- !u!1 &384307633
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,6 +483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 384307635}
   - component: {fileID: 384307634}
+  - component: {fileID: 384307636}
   m_Layer: 0
   m_Name: Hexagone Obstacle 2
   m_TagString: Untagged
@@ -483,6 +565,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &384307636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384307633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca9e5bd9a27cda40a8be421e4df0fac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectionProximiteJoueur
 --- !u!1 &454100718
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,6 +586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 454100720}
+  - component: {fileID: 454100721}
   - component: {fileID: 454100719}
   m_Layer: 0
   m_Name: "Triangle zone d'arriv\xE9e"
@@ -574,6 +669,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -50.829}
+--- !u!114 &454100721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454100718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8cfdaabb8f732d49b6db421554d2919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ZoneArrivee
 --- !u!1 &529015828
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,7 +690,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 529015830}
+  - component: {fileID: 529015832}
   - component: {fileID: 529015829}
+  - component: {fileID: 529015831}
   m_Layer: 0
   m_Name: "Carr\xE9 obstacle (7)"
   m_TagString: Untagged
@@ -665,6 +774,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &529015831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529015828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca9e5bd9a27cda40a8be421e4df0fac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectionProximiteJoueur
+--- !u!114 &529015832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529015828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b54743f53e0ce459ba7f9ef4c4e768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotationCarre
+  vitesseRotation: 0.01
 --- !u!1 &922439660
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,6 +808,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 922439662}
+  - component: {fileID: 922439664}
   - component: {fileID: 922439661}
   - component: {fileID: 922439663}
   m_Layer: 0
@@ -769,6 +904,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca9e5bd9a27cda40a8be421e4df0fac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DetectionProximiteJoueur
+--- !u!114 &922439664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922439660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b54743f53e0ce459ba7f9ef4c4e768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotationCarre
+  vitesseRotation: 0.01
 --- !u!1 &1164778328
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,7 +926,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1164778330}
+  - component: {fileID: 1164778332}
   - component: {fileID: 1164778329}
+  - component: {fileID: 1164778331}
   m_Layer: 0
   m_Name: "Carr\xE9 obstacle (8)"
   m_TagString: Untagged
@@ -854,12 +1004,37 @@ Transform:
   m_GameObject: {fileID: 1164778328}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.02, y: 0.74, z: 0}
+  m_LocalPosition: {x: 4.67, y: 0.37, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1164778331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164778328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca9e5bd9a27cda40a8be421e4df0fac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectionProximiteJoueur
+--- !u!114 &1164778332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164778328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b54743f53e0ce459ba7f9ef4c4e768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotationCarre
+  vitesseRotation: 0.01
 --- !u!1 &1175564701
 GameObject:
   m_ObjectHideFlags: 0
@@ -870,6 +1045,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1175564703}
   - component: {fileID: 1175564702}
+  - component: {fileID: 1175564704}
   m_Layer: 0
   m_Name: Hexagone Obstacle
   m_TagString: Untagged
@@ -951,6 +1127,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1175564704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175564701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca9e5bd9a27cda40a8be421e4df0fac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectionProximiteJoueur
 --- !u!1 &1208610891
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,7 +1148,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1208610893}
+  - component: {fileID: 1208610895}
   - component: {fileID: 1208610892}
+  - component: {fileID: 1208610894}
   m_Layer: 0
   m_Name: "Carr\xE9 obstacle (2)"
   m_TagString: Untagged
@@ -1036,12 +1226,37 @@ Transform:
   m_GameObject: {fileID: 1208610891}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.60413, y: 0.10424, z: 0}
+  m_LocalPosition: {x: -1.60413, y: -0.98, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1208610894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208610891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca9e5bd9a27cda40a8be421e4df0fac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectionProximiteJoueur
+--- !u!114 &1208610895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208610891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b54743f53e0ce459ba7f9ef4c4e768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotationCarre
+  vitesseRotation: 0.01
 --- !u!1 &1599989053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,7 +1266,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1599989055}
+  - component: {fileID: 1599989057}
   - component: {fileID: 1599989054}
+  - component: {fileID: 1599989056}
   m_Layer: 0
   m_Name: "Carr\xE9 obstacle (4)"
   m_TagString: Untagged
@@ -1127,12 +1344,37 @@ Transform:
   m_GameObject: {fileID: 1599989053}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.92, y: 2.97, z: 0}
+  m_LocalPosition: {x: -0.92, y: 3.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1599989056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599989053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca9e5bd9a27cda40a8be421e4df0fac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectionProximiteJoueur
+--- !u!114 &1599989057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599989053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b54743f53e0ce459ba7f9ef4c4e768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotationCarre
+  vitesseRotation: 0.01
 --- !u!1 &1763545751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1252,7 +1494,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1868878307}
+  - component: {fileID: 1868878309}
   - component: {fileID: 1868878306}
+  - component: {fileID: 1868878308}
   m_Layer: 0
   m_Name: "Carr\xE9 obstacle (6)"
   m_TagString: Untagged
@@ -1328,12 +1572,37 @@ Transform:
   m_GameObject: {fileID: 1868878305}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.38, y: -2.82, z: 0}
+  m_LocalPosition: {x: 2.31, y: -1.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1868878308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868878305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca9e5bd9a27cda40a8be421e4df0fac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectionProximiteJoueur
+--- !u!114 &1868878309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868878305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b54743f53e0ce459ba7f9ef4c4e768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotationCarre
+  vitesseRotation: 0.01
 --- !u!1 &1925683174
 GameObject:
   m_ObjectHideFlags: 0
@@ -1343,7 +1612,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1925683176}
+  - component: {fileID: 1925683178}
   - component: {fileID: 1925683175}
+  - component: {fileID: 1925683177}
   m_Layer: 0
   m_Name: "Carr\xE9 obstacle (5)"
   m_TagString: Untagged
@@ -1419,12 +1690,37 @@ Transform:
   m_GameObject: {fileID: 1925683174}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2, y: -2.7, z: 0}
+  m_LocalPosition: {x: 0.2, y: -3.43, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1925683177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925683174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca9e5bd9a27cda40a8be421e4df0fac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectionProximiteJoueur
+--- !u!114 &1925683178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925683174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b54743f53e0ce459ba7f9ef4c4e768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotationCarre
+  vitesseRotation: 0.01
 --- !u!1 &2088141928
 GameObject:
   m_ObjectHideFlags: 0
