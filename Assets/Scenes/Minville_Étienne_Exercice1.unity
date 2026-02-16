@@ -607,9 +607,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b0c816305b2edc4c87077cf2ab1ea94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrandeurHexagone
-  vitesse: 0.001
-  reduction: 0.001
+  vitesse: 0.06
+  reduction: 1
+  tailleInitiale: 3
   peutBouger: 1
+  hexagoneCroissance: 0
 --- !u!1 &454100718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,9 +1204,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b0c816305b2edc4c87077cf2ab1ea94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrandeurHexagone
-  vitesse: 0.001
-  reduction: 0.001
+  vitesse: 0.06
+  reduction: 1
+  tailleInitiale: 3
   peutBouger: 1
+  hexagoneCroissance: 0
 --- !u!1 &1208610891
 GameObject:
   m_ObjectHideFlags: 0
